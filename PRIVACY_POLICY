@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Basketball Score</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        .last-updated {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        ul {
+            margin: 10px 0;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .highlight {
+            background-color: #ecf0f1;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy for Basketball Score</h1>
+    <p class="last-updated"><strong>Last Updated:</strong> [Date]</p>
+
+    <h2>Introduction</h2>
+    <p>Basketball Score ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we handle information when you use our mobile application ("App").</p>
+
+    <h2>Information We Collect</h2>
+    
+    <h3>User-Entered Information</h3>
+    <div class="highlight">
+        <p><strong>Our App does NOT collect any personal information from users.</strong> You can use the App with:</p>
+        <ul>
+            <li><strong>Team Names</strong> (e.g., "Team A", "Lakers") - Generic team identifiers</li>
+            <li><strong>Player Numbers</strong> (0-99) - Jersey numbers only</li>
+            <li><strong>Game Statistics</strong> - Points, assists, rebounds, blocks, steals, fouls, turnovers</li>
+        </ul>
+        <p><strong>No personal data is collected</strong> - We do not collect names, email addresses, phone numbers, or any other personally identifiable information.</p>
+    </div>
+
+    <h3>Automatically Collected Information</h3>
+    <ul>
+        <li><strong>Session Identifiers</strong>: We generate a random session ID (UUID) for each app session to enable multi-device synchronization. This is NOT a device identifier and cannot be used to identify you or your device.</li>
+        <li><strong>Game Data</strong>: Game statistics, team names, and player numbers are stored locally and optionally synced via local network (Wi-Fi hotspot) or Firebase cloud storage.</li>
+    </ul>
+
+    <h3>Third-Party Services</h3>
+    
+    <h4>Google AdMob</h4>
+    <p>Our App uses Google AdMob to display advertisements. AdMob may collect:</p>
+    <ul>
+        <li>Device information (for ad delivery)</li>
+        <li>Advertising identifiers</li>
+        <li>App usage data</li>
+    </ul>
+    <p>For more information about AdMob's data collection, please review <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</p>
+
+    <h4>Firebase (Google Cloud)</h4>
+    <p>We use Firebase Firestore to store game statistics data:</p>
+    <ul>
+        <li><strong>What is stored</strong>: Team names, player numbers, game statistics, activity logs</li>
+        <li><strong>What is NOT stored</strong>: Personal names, device identifiers, or any personal information</li>
+        <li><strong>Data Retention</strong>: All data is automatically deleted after 7 days</li>
+        <li><strong>Purpose</strong>: Enable multi-device game synchronization and statistics tracking</li>
+    </ul>
+
+    <h2>How We Use Information</h2>
+    <ul>
+        <li><strong>Game Functionality</strong>: To provide basketball game scoring and statistics tracking</li>
+        <li><strong>Multi-Device Sync</strong>: To synchronize game data across multiple devices on the same local network</li>
+        <li><strong>Cloud Storage</strong>: To store game statistics temporarily (7-day retention)</li>
+        <li><strong>Advertising</strong>: To display relevant advertisements via AdMob</li>
+    </ul>
+
+    <h2>Data Storage and Retention</h2>
+    <ul>
+        <li><strong>Local Storage</strong>: Game data is stored on your device</li>
+        <li><strong>Cloud Storage</strong>: Game data may be stored in Firebase Firestore for up to 7 days, then automatically deleted</li>
+        <li><strong>No Personal Data</strong>: We do not store any personal information</li>
+    </ul>
+
+    <h2>Data Sharing</h2>
+    <ul>
+        <li><strong>Firebase (Google)</strong>: Game statistics (team names, player numbers, stats) are stored in Firebase Firestore</li>
+        <li><strong>AdMob (Google)</strong>: AdMob may collect device information for advertising purposes</li>
+        <li><strong>No Third-Party Sharing</strong>: We do not sell, rent, or share your data with third parties except as described above</li>
+    </ul>
+
+    <h2>Your Rights</h2>
+    <p>Since we do not collect personal information, there is no personal data to access, modify, or delete. However, you can:</p>
+    <ul>
+        <li><strong>Clear Local Data</strong>: Uninstall the App to remove all local data</li>
+        <li><strong>Opt-Out of Ads</strong>: Adjust your device's ad preferences (Android Settings)</li>
+    </ul>
+
+    <h2>Children's Privacy</h2>
+    <p>Our App does not collect personal information from anyone, including children under 13. The App can be used without entering any personal information.</p>
+
+    <h2>Data Security</h2>
+    <ul>
+        <li><strong>Encryption</strong>: Data transmitted to Firebase is encrypted using HTTPS/TLS</li>
+        <li><strong>Local Network</strong>: Local network synchronization uses unencrypted WebSocket (only on your local Wi-Fi network)</li>
+        <li><strong>No Personal Data</strong>: Since we don't collect personal information, there is no personal data at risk</li>
+    </ul>
+
+    <h2>Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by updating the "Last Updated" date at the top of this policy.</p>
+
+    <h2>Contact Us</h2>
+    <p>If you have questions about this Privacy Policy, please contact us at:</p>
+    <ul>
+        <li><strong>Email</strong>: [Your Email Address]</li>
+        <li><strong>Website</strong>: [Your Website URL]</li>
+    </ul>
+
+    <h2>Compliance</h2>
+    <ul>
+        <li><strong>GDPR</strong>: Not applicable - We do not collect personal data from EU users</li>
+        <li><strong>CCPA</strong>: Not applicable - We do not collect personal information</li>
+        <li><strong>COPPA</strong>: Compliant - We do not collect personal information from children</li>
+    </ul>
+
+    <div class="highlight">
+        <p><strong>Note</strong>: This App is designed to work without collecting any personal information. You can use all features with team names and player numbers only.</p>
+    </div>
+</body>
+</html>
+
